@@ -1,0 +1,25 @@
+{
+  "name": "clips",
+  "version": "1.0.0",
+  "description": "AI-powered YouTube clip downloader agent. Paste a URL + timestamps and it saves the clips.",
+  "main": "src/index.js",
+  "bin": {
+    "clips": "./bin/clips.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/clips.js",
+    "clip": "node bin/clips.js"
+  },
+  "keywords": ["youtube", "clips", "yt-dlp", "downloader", "agent"],
+  "author": "IloveChanel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.0"
+  }
+}

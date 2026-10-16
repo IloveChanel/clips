@@ -1,0 +1,11 @@
+node_modules/
+output/
+*.mp4
+*.webm
+*.mkv
+*.m4a
+yt-dlp.exe
+yt-dlp
+.DS_Store
+*.log
+.env
